@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Moeez Ahmad</title>
+        <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap"
+                rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="Style/main.css">
+        <link rel="stylesheet" href="Style/body.css">
+        <link rel="stylesheet" href="Style/navbar.css">
+        <link rel="stylesheet" href="Style/header.css">
+        <link rel="stylesheet" href="Style/about.css">
+        <link rel="stylesheet" href="Style/projects.css">
+        <link rel="stylesheet" href="Style/services.css">
+        <link rel="stylesheet" href="Style/contact.css">
+
+</head>
+
+<body>
+        <nav>
+                <div style="display: flex; align-items: center; gap: 5px;"> 
+
+                        <img style="width: 30px;" src="images/favicon.jpg" alt="">
+                        <h1>Moeez&nbsp;Ahmad</h1>
+                </div>
+        
+                <ul data-aos="fade-right" id="main">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                </ul>
+                <ul>
+
+                        <i data-aos="fade-right" id="navIcon" data-aos="fade-right" class="bi bi-list"></i>
+                        <ul data-aos="fade-right" id="sec">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                        </ul>
+                </ul>
+
+        </nav>
+        <script>
+                console.log(window.innerWidth);
+
+                if (window.innerWidth < 600) {
+                        let Toggle = true;
+                        document.getElementById('navIcon').addEventListener('click', () => {
+                                Toggle = !Toggle;
+                                console.log(Toggle);
+                                if (Toggle) {
+                                        document.getElementById('sec').style.display = 'none';
+                                } else {
+                                        document.getElementById('sec').style.display = 'flex';
+                                }
+                        });
+                        if (Toggle) {
+                                document.getElementById('sec').style.display = 'none';
+                        } else {
+                                document.getElementById('sec').style.display = 'flex';
+                        }
+                        document.getElementById('main').style.display = 'none';
+                } else {
+                        document.getElementById('navIcon').style.display = 'none';
+                        document.getElementById('sec').style.display = 'none';
+                        document.getElementById('main').style.display = 'flex'; // Ensure 'main' is displayed when width is >= 500
+                }
+
+
+        </script>
+
+        <header data-aos="fade-right" id="header">
+
+                <div data-aos="fade-right" id="textBox">
+                        <div data-aos="fade-right" id="textArea">
+                                <h1>I'm</h1>
+                                <h1 data-aos="fade-right" class="mainHeading">Moeez&nbsp;Ahmad</h1>
+                                <h1 data-aos="fade-right" class="cursiveHeading">Portfolio Expert</h1>
+                        </div>
+                        <div data-aos="fade-right" id="buttonArea">
+                                <a href="#projects"> <button data-aos="fade-right" class="mainBtn">Projects</button></a>
+                                <a href="#contact"> <button data-aos="fade-right" class="secBtn">Contact <i
+                                                        data-aos="fade-right" class="bi bi-chevron-right"></i></button></a>
+                        </div>
+                        <div data-aos="fade-right" id="IconBox">
+                                <img data-aos="fade-right" src="images/10.png" alt="">
+                                <img data-aos="fade-right" src="images/11.png" alt="">
+                                <img data-aos="fade-right" src="images/12.png" alt="">
+                                <img data-aos="fade-right" src="images/13.png" alt="">
+                        </div>
+                </div>
+                <div data-aos="fade-right" id="imageBox">
+                        <img data-aos="fade-right" src="images/1.png" alt="">
+                </div>
+        </header>
+
+        <section data-aos="fade-right" id="about">
+
+                <section data-aos="fade-right" id="aboutSection">
+                        <h1 data-aos="fade-right" class="mainHeading">About&nbsp;Me</h1>
+                        <p>
+                                I am a professional website developer dedicated
+                                my services for the other freelancer to make their
+                                premium Qualiity portfolio in affordable price.
+                        </p>
+                        <p>I provide them a great service to get rid from the
+                                freelancing plateforms and continue their
+                                freelancing journey with a stable portfolio and get
+                                international clients.</p>
+                        <p>Make sure to have a portfolio if you do not have it
+                                so you can contact me to get yours</p>
+                </section>
+        </section>
+
+        <section data-aos="fade-right" id="projects">
+                <header>
+                        <h1 data-aos="fade-right" class="mainHeading">My&nbsp;Work</h1>
+                        <a href="projects.html">Check Out More <i data-aos="fade-right" class="bi bi-chevron-right"></i></a>
+                </header>
+                <section>
+                        <div data-aos="fade-right" class="card">
+                                <img data-aos="fade-right" src="images/p1.png" alt="">
+                                <div data-aos="fade-right" class="card__content">
+                                        <p data-aos="fade-right" class="card__title">Card Title</p>
+                                        <p data-aos="fade-right" class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                </div>
+                        </div>
+                </section>
+        </section>
+
+
+        <section data-aos="fade-right" id="services">
+                <header>
+                        <h1 data-aos="fade-right" class="mainHeading">I Provide You</h1>
+                </header>
+                <section>
+
+                        <div>
+                                <img data-aos="fade-right" src="images/4.png" alt="">
+                                <h1 data-aos="fade-right"> Quality&nbsp;Work</h1>
+                        </div>
+                        <div>
+                                <img data-aos="fade-right" src="images/5.png" alt="">
+                                <h1 data-aos="fade-right">Support&nbsp;&&nbsp;Time</h1>
+                        </div>
+                        <div>
+                                <img data-aos="fade-right" src="images/6.png" alt="">
+                                <h1 data-aos="fade-right">Professionalism</h1>
+                        </div>
+                        <div>
+                                <img data-aos="fade-right" src="images/7.png" alt="">
+                                <h1 data-aos="fade-right">Customization</h1>
+                        </div>
+                        <div>
+                                <img data-aos="fade-right" src="images/8.png" alt="">
+                                <h1 data-aos="fade-right">User&nbsp;Friendliness</h1>
+                        </div>
+                        <div>
+                                <img data-aos="fade-right" src="images/9.png" alt="">
+                                <h1 data-aos="fade-right">Your&nbsp;Satisfaction</h1>
+                        </div>
+                </section>
+
+        </section>
+
+        <section data-aos="fade-right" id="contact">
+                <main>
+
+                        <img data-aos="fade-right" src="images/2.png" alt="">
+                        <div>
+                                <h1 data-aos="fade-right" class="mainHeading">Contact&nbsp;Us</h1>
+                                <input data-aos="fade-right" type="text" placeholder="Your Name">
+                                <input data-aos="fade-right" type="text" placeholder="Your Email">
+                                <textarea data-aos="fade-right" type="text" placeholder="Description Of Your Work"></textarea>
+                                <button data-aos="fade-right" class="mainBtn">Contact</button>
+                        </div>
+                </main>
+                <footer>
+                        <img data-aos="fade-right" src="images/10.png" alt="">
+                        <img data-aos="fade-right" src="images/11.png" alt="">
+                        <img data-aos="fade-right" src="images/12.png" alt="">
+                        <img data-aos="fade-right" src="images/13.png" alt="">
+                </footer>
+        </section>
+</body>
+
+<script data-aos="fade-right" src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script>
+
+</html>
