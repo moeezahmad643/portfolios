@@ -1,0 +1,12 @@
+#about{
+        padding: 5vw;
+        h1{
+                font-size: 4vmax;
+        }
+        p{
+                font-size: 2vmax;
+                padding: 10px;
+                color: white;
+                text-align: justify;
+        }
+}

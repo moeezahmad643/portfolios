@@ -1,0 +1,12 @@
+body{
+        background-color: #011644;
+}
+
+html{
+        scroll-behavior: smooth;
+}
+
+html,body{
+        width: 100%;
+        overflow-x: hidden;
+}
