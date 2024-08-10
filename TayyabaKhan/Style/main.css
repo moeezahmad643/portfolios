@@ -8,7 +8,7 @@
 }
 
 .mainBtn {
-    background-color: #F2B229;
+    background-color: #f2b229;
     color: black;
     border-radius: 5px;
     padding: 8px 13px;
@@ -23,8 +23,8 @@
 .mainHeading {
     font-family: "Poppins", sans-serif;
     font-weight: 800;
-    font-optical-sizing: auto;
     font-style: normal;
+    color: white;
 }
 .cursiveHeading {
     font-family: "Edu AU VIC WA NT Hand", cursive;
@@ -33,7 +33,7 @@
     font-style: normal;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
     .mainHeading {
         font-family: "Poppins", sans-serif;
         font-weight: 700;

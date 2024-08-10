@@ -1,0 +1,71 @@
+#About {
+    display: flex;
+    align-items: center;
+    background-color: #3894ff;
+
+    #backgroudImage {
+        img {
+            height: 100vh;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    > div {
+        width: 50%;
+        height: 100vh;
+    }
+    #textBox {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        padding: 3vw;
+        gap: 10px;
+        color: white;
+        h1 {
+            font-size: 4vw;
+        }
+        p {
+            font-size: 2vw;
+        }
+        
+        #buttons {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            button {
+                padding: 10px 20px;
+                border-radius: 10px;
+                border: none;
+                font-weight: bold;
+                font-size: 1.2vw;
+            }
+            #button1{
+                background-color: black;
+                color: white;
+            }
+            
+        }
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    #About{
+        height: 30vh;
+        *{
+            font-size: large !important;
+        }
+        h1{
+            font-size: xx-large !important ;
+        }
+        #backgroudImage{
+            height: 0px;
+            width: 0px;
+            
+        }
+        >div{
+            width: 100%;
+        }
+    }
+}

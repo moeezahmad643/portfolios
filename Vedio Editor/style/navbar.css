@@ -1,0 +1,14 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 5vw;
+h1{
+        font-size: xx-large;
+}
+    ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        gap: 70px;
+    }
+}

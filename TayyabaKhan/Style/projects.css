@@ -47,11 +47,20 @@
                 box-shadow: none;
             }
         }
+        .special{
+            background-color: black;
+        img{
+            filter: invert();
+
+        }
+        }
+
     }
-    #bannerBox{
+
+    #bannerBox {
         animation: scroll-horizontal-right 150s linear infinite;
 
-        img{
+        img {
             width: 400px;
             height: auto;
         }

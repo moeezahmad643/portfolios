@@ -1,0 +1,16 @@
+#projects {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 98px;
+    padding: 5vw;
+
+    iframe {
+        transition: all 0.5s;
+    }
+    iframe:hover {
+        transform: scale(1.06);
+    }
+}

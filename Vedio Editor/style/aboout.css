@@ -1,0 +1,38 @@
+#about {
+    background-color: orange;
+    color: white;
+    padding: 5vw;
+
+    h1 {
+        font-size: 60px;
+    }
+    p {
+        font-size: 25px;
+        margin: 5px;
+        text-align: justify;
+    }
+}
+
+#footer {
+    padding: 40px;
+    background-color: black;
+    div {
+        gap: 50px;
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+        color: white;
+        justify-content: center;
+    }
+
+    i {
+        transition: all 0.3s;
+    }
+    i:hover {
+        transform: scale(1.2);
+    }
+    p {
+        font-size: 20px;
+        padding: 20px;
+    }
+}

@@ -32,3 +32,8 @@
     font-weight: 300;
     font-style: normal;
 }
+
+#cardIcon{
+    color: black;
+    font-weight: bold;
+}
