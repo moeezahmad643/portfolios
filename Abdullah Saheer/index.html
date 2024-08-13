@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/main.css">
+        <title>Abdullah Saheer</title>
+        <style>
+                h1 {
+                        font-size: 4vmax;
+                }
+
+                h2 {
+                        font-size: 3vmax;
+                }
+
+                nav {
+                        display: flex;
+                        padding: 3vw;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        img {
+                                width: 70px;
+                        }
+
+                        ul {
+                                display: flex;
+                                list-style: none;
+                                align-items: center;
+                                gap: 40px;
+
+                                li {
+                                        cursor: pointer;
+                                }
+
+                                li:hover {
+                                        font-weight: bold;
+                                }
+                        }
+
+                        button {
+                                border: 3px solid black;
+                                padding: 10px 20px;
+                                border-radius: 50px;
+                                cursor: pointer;
+                        }
+                }
+
+                header {
+                        padding: 5vw;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-evenly;
+
+                        div {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: start;
+                                gap: 10px;
+
+                              img{
+                                height: 400px;
+                              }
+
+                                button {
+                                        background-color: black;
+                                        border: 3px solid black;
+                                        padding: 10px 20px;
+                                        border-radius: 50px;
+                                        cursor: pointer;
+                                        color: white;
+                                        font-size: large;
+                                }
+                        }
+
+                        .imgBox {
+                                clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+                                background-color: red;
+                                height: 400px;
+                                aspect-ratio: 1/1;
+
+                                display: grid;
+                                place-items: center;
+                                padding-top: 10px;
+                        }
+
+                }
+        </style>
+</head>
+
+<body>
+        <nav>
+                <img src="images/icon.png" alt="">
+                <ul>
+                        <li>Home</li>
+                        <li>Services</li>
+                        <li>Work</li>
+                        <li>Skills</li>
+                </ul>
+                <button>Contact Me</button>
+        </nav>
+
+        <header>
+                <div>
+                        <h2>Say Hello To BO<span style="color: red; font-family:u;">A</span>T</h2>
+                        <h1>Your Business Infulencer</h1>
+                        <p>Creating bold & Modern interface</p>
+                        <button>Hire Me</button>
+                </div>
+                <div class="imgBox">
+                        <img src="images/main.png" alt="">
+                </div>
+        </header>
+</body>
+
+</html>
