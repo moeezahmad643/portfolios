@@ -1,0 +1,67 @@
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vw;
+    main {
+        img {
+            width: 40%;
+        }
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 10px;
+            input,
+            textarea {
+                border: 2px solid white;
+                padding: 10px;
+                max-width: 600px;
+                min-width: 90%;
+                font-size: larger;
+                border-radius: 10px;
+
+                background-color: transparent;
+            }
+            .mainHeading {
+                font-size: 60px;
+            }
+        }
+    }
+    footer {
+        display: flex;
+        align-items: center;
+        gap: 5vw;
+        padding: 50px;
+        & img {
+            width: 3vmax;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #contact {
+        flex-wrap: wrap;
+        main {
+            img{
+                width: 100%;
+            }
+            div {
+                width: 100%;
+                align-items: start;
+                & input,
+                textarea {
+                    margin: 10px;
+                }
+                button {
+                    margin: 10px;
+                }
+            }
+        }
+    }
+}
